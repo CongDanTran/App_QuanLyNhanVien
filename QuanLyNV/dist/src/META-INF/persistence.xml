@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="QuanLyNVPU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>Model.TblChiTietChamCong</class>
+    <class>Model.TblLuong</class>
+    <class>Model.TblTaiKhoan</class>
+    <class>Model.TblChucVu</class>
+    <class>Model.TblPhongBan</class>
+    <class>Model.TblKyLuong</class>
+    <class>Model.TblChamCong</class>
+    <class>Model.TblNhanVien</class>
+    <class>Model.TblNhanvien</class>
+    <class>Model.TblChucvu</class>
+    <class>Model.TblChamcong</class>
+    <class>Model.TblKyluong</class>
+    <class>Model.TblChitietchamcong</class>
+    <class>Model.TblTaikhoan</class>
+    <class>Model.TblPhongban</class>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:sqlserver://localhost\SQLEXPRESS:1433;databaseName=QLNV"/>
+      <property name="javax.persistence.jdbc.user" value="sa"/>
+      <property name="javax.persistence.jdbc.driver" value="com.microsoft.sqlserver.jdbc.SQLServerDriver"/>
+      <property name="javax.persistence.jdbc.password" value="123"/>
+    </properties>
+  </persistence-unit>
+</persistence>
